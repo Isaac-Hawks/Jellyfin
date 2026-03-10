@@ -8,7 +8,7 @@ sudo apt-get update && sudo apt-get install docker.io docker-compose -y
 
 ```
 
-After you have docker installed, you have to start the container:
+After you have docker installed, you have to start the container in the jellyfin directory:  
 ``` sudo docker-compose up -d ``` 
 Note: If this is your first time doing this, docker will need to download the jellyfin image.
 
