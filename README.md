@@ -1,2 +1,2 @@
-# Docker
-This is a collection of all my docker projects
+# Jellyfin
+This is a personal Jellyfin server that runs in a docker container
