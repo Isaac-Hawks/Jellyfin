@@ -1,7 +1,12 @@
 # Jellyfin Docker Container
 This repository provides a simple Docker-based setup for running a Jellyfin media server.  
-It includes a docker-compose configuration and foldor structure to make deployment easy.  
-These instructions are designed for Ubuntu/Debian systems
+It includes a docker-compose configuration and folder structure to make deployment easy.  
+
+## Requirements
+- Ubuntu / Debian based systems
+- Docker
+- Docker Compose
+- Internet Connection (for downloading the jellyfin image and metadata)
 
 ## Download:
 ```bash
@@ -13,7 +18,8 @@ For this to work, you need docker + docker-compose on the device that will be ho
 
 If you do not already have these installed. run this command:
 ```bash
-sudo apt-get update && sudo apt-get install docker.io docker-compose -y
+sudo apt-get update
+sudo apt-get install docker.io docker-compose -y
 
 ```
 After you have docker installed, you have to start the container in the jellyfin directory:
