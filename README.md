@@ -70,4 +70,4 @@ When you scan a library for the first time, Jellyfin will download metadata from
 8. Click Finish and log back in again
 9. Enjoy!
 
-### If you project helped you, consider giving it a ⭐ on GitHub
+### If this project helped you, consider giving it a ⭐ on GitHub
